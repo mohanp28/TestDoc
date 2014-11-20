@@ -16,3 +16,4 @@ SOQL Tool:
 - You can get output in CSV format. 
 
 Create JSON Metadata
+Wave uses the JSON metadata uploaded to InsightExternalData to format/classify the raw data.
