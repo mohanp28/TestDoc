@@ -23,4 +23,6 @@ These are the highlights:
    FieldType of INTEGER/DOUBLE/CURRENCY are classified to Numeric.
    FieldType of DATE/DATETIME are classified to Date.
    All other FieldType as Text
-2.
+2. Change facts to dimension.
+   By default metadata detection classifies INTEGER/DOUBLE/CURRENCY dataTypes as Numeric. If the use case requires a specifc filed to be classifed as dimension, then user can edit the data type from Numeric to Text. The same applies for the datatype "Date"
+3. 
