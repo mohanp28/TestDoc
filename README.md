@@ -16,4 +16,11 @@ SOQL Tool:
 - You can get output in CSV format. 
 
 Create JSON Metadata
-Wave uses the JSON metadata uploaded to InsightExternalData to format/classify the raw data.
+Wave uses the JSON metadata uploaded to InsightExternalData to format/classify the raw data. SOQL Wave  provides an UI based configuration to create these complex JSON behind the sceen.
+
+These are the highlights:
+1. Auto classify metadata field types based on the  actual salesforce field data type.
+   FieldType of INTEGER/DOUBLE/CURRENCY are classified to Numeric.
+   FieldType of DATE/DATETIME are classified to Date.
+   All other FieldType as Text
+2.
